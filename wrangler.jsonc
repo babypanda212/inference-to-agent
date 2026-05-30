@@ -1,0 +1,9 @@
+{
+  // Static-assets Worker: serves the curriculum site from public/.
+  // Git-connected builds run `wrangler deploy`, which reads this file.
+  "name": "inference-to-agent",
+  "compatibility_date": "2026-05-30",
+  "assets": {
+    "directory": "./public"
+  }
+}
